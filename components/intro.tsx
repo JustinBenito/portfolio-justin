@@ -2,7 +2,6 @@
 import {  BsLinkedin } from "react-icons/bs";
 import React from 'react'
 import Image from 'next/image'
-import Typed from 'react-typed';
 import {delay, motion} from 'framer-motion'
 
 export default function Intro() {
