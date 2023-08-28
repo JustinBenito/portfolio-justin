@@ -6,16 +6,13 @@ import {delay, motion} from 'framer-motion'
 
 export default function Contact() {
 
-const handleSubmit=()=>{
-  alert("Thanks for Reaching out to me, I'll get back to you shortly")
-}
 
   return (
    <section id='contact' className='mt-28'>
    <SectionHeading>Contact Me</SectionHeading>
       <div className="py-2 lg:py-4  px-4 mx-auto max-w-screen-md">
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Wanna Talk. Shoot me a DM or Mail me here 👇 <br /> I reply to everything everyone everytime at once 😉</p>
-        <form action="https://formsubmit.co/justinbenito1974@gmail.com" method="POST" className="space-y-8">
+        <form action="https://formsubmit.co/1e00b54531d94b175d83d762d1a6e408" method="POST" className="space-y-8">
           <div>
             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
             <input type="email" id="email" name="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@email.com" required />
@@ -33,7 +30,6 @@ const handleSubmit=()=>{
                  animate={{ opacity: 1, scale: 1 }}
                  transition={{ duration: 0.5 }}
               type="submit"
-              onSubmit={handleSubmit}
              className="inline-flex focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition items-center hover:bg-white bg-black  text-white hover:text-black focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 border-white border-2 focus:ring-primary-300">
                 Contact Me
                 <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
