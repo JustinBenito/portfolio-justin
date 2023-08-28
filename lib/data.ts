@@ -8,6 +8,8 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import youtube from "@/public/youtube.png"
 import telehealth from "@/public/tele1.png"
 import boredom from "@/public/boredom.png"
+import event from "@/public/event.png"
+import email from "@/public/email.png"
 
 export const links = [
   {
@@ -83,8 +85,15 @@ export const projectsData = [
     title: "Telehealth Application",
     description:
       "Created a Telehealth Application for Doctors and Patients using React Native. Used Locofy to Convert Figma to Code",
-    tags: ["React Native", "JavaScript","Locofy","Figma"],
+    tags: ["React Native", "JavaScript","Locofy","Figma", "Firebase"],
     imageUrl: telehealth,
+  },
+  {
+    title: "Newsletter Landing Page",
+    description:
+      "Built a Newsletter landing page using React and Firebase for scaling, you can find it over on innocareertech.com",
+    tags: ["React", "Firebase"],
+    imageUrl: email,
   },
   {
     title: "Boredom Detection",
@@ -92,6 +101,13 @@ export const projectsData = [
       "A Machine Learning Application to detect boredom in students and alert. Used OpenCV and Mediapipe",
     tags: ["Python", "OpenCV", "Mediapipe"],
     imageUrl: boredom,
+  },
+  {
+    title: "Event Management Landing Page",
+    description:
+      "Built a landing page for a client using ReactJs ",
+    tags: ["React", "JavaScript"],
+    imageUrl: event,
   },
 ] as const;
 

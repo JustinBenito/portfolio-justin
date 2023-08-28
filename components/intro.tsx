@@ -38,18 +38,15 @@ export default function Intro() {
         </motion.span> 
         </div>
         <div className="mt-4 md:mt-0 space-y-4 ">
-        <Typed
+        <h1
         className="mb-4  text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
-        strings={['Hi! I am Justin', 'I work with Flutter','I work with React','Tech Enthusiast', "Zealous Engineer"]}
-        backSpeed={20}
-        typeSpeed={20}
-        loop
-        />
+
+        >Welcome! I am Justin</h1>
             <motion.p 
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
-            className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">#reactjs, #nocode, #flutter, #software,<br/> #technology, #programming</motion.p>
+            className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">I work with Flutter, React and React Native.<br></br> Big Tech Enthusiast and a Zealous Engineer</motion.p>
             <motion.a 
                  initial={{ opacity: 0, scale: 0.5 }}
                  animate={{ opacity: 1, scale: 1 }}
