@@ -37,10 +37,18 @@ export default function Intro() {
         </motion.span> 
         </div>
         <div className="mt-4 md:mt-0 space-y-4 ">
-        <h1
+        <motion.h1
+                  initial={{opacity:0,scale:0}}
+                  animate={{opacity:1,scale:1}}
+                  transition={{
+                   type: "tween",
+                   duration: 0.3,
+                   stiffness:10,
+                   delay:0.2,
+                  }} 
         className="mb-4  text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
 
-        >Welcome! I am Justin</h1>
+        >Welcome! I am Justin</motion.h1>
             <motion.p 
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
