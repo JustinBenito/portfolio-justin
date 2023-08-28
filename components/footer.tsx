@@ -10,7 +10,7 @@ const Footer = () => {
 
 
     <div className="w-full mx-auto py-2 md:flex md:items-center md:justify-center">
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://justinbenito.com/" className="hover:underline">Justin Benito</a>
+      <span className="text-sm text-gray-500 text-center dark:text-gray-400">© 2023 <a href="https://justinbenito.com/" className="hover:underline">Justin Benito</a>
     </span>
     </div>
 
