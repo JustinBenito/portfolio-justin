@@ -5,6 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import youtube from "@/public/youtube.png"
+import telehealth from "@/public/tele1.png"
+import boredom from "@/public/boredom.png"
 
 export const links = [
   {
@@ -35,52 +38,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: `Computer Science`,
+    location: "Don Bosco Egmore",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Marks: 94.5% (12th) Class Topper",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2008-2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: `Electronics and Communication Engineering`,
+    location: "RMK Engineering College",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "GPA: 8.83 (First Year) Class Topper",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022-2026",
+  },
+  {
+    title: "Project Developer and Video Creator",
+    location: "Locofy.ai",
+    description:
+      "Responsible for coming up with note worthy project ideas, and developing them using Locofy's Figma plugin and Creating a quick build video explaining the entire process.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Oct 2022 - Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "News Letter and Social Media Admin",
+    location: "Inno CareerTech",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Involved in developing and managing email newsletter Website and Creating content for all Social Media Handles",
+      icon: React.createElement(CgWorkAlt),
+    date: "June 2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Youtube Clone",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Cloned the Popular Youtube Application and made it functional using ReactJS, used Locofy to Convert Figma design to Frontend",
+    tags: ["React", "API", "JavaScript", "Locofy", "Figma"],
+    imageUrl: youtube,
   },
   {
-    title: "rmtDev",
+    title: "Telehealth Application",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Created a Telehealth Application for Doctors and Patients using React Native. Used Locofy to Convert Figma to Code",
+    tags: ["React Native", "JavaScript","Locofy","Figma"],
+    imageUrl: telehealth,
   },
   {
-    title: "Word Analytics",
+    title: "Boredom Detection",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A Machine Learning Application to detect boredom in students and alert. Used OpenCV and Mediapipe",
+    tags: ["Python", "OpenCV", "Mediapipe"],
+    imageUrl: boredom,
   },
 ] as const;
 
@@ -90,18 +101,20 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
+  "React Native",
+  "Python",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Flutter",
+  "Machine Learning",
+  "Numpy",
+  "Pandas",
+  "Postman",
+  "TypeScript",
+  "Java",
+  "C",
+  "C++",
+  "Adobe Premier Pro",
+  "Arduino"
+
 ] as const;

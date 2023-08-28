@@ -34,13 +34,13 @@ export default function Intro() {
              delay:0.5,
             }} 
             className='text-6xl absolute md:bottom-0 md:right-4  bottom-1  md:block '>
-                ✌️
+                👋
         </motion.span> 
         </div>
         <div className="mt-4 md:mt-0 space-y-4 ">
         <Typed
         className="mb-4  text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
-        strings={['Hi! I am Justin', 'I am a Flutter Developer']}
+        strings={['Hi! I am Justin', 'I work with Flutter','I work with React','Tech Enthusiast', "Zealous Engineer"]}
         backSpeed={20}
         typeSpeed={20}
         loop
@@ -49,7 +49,7 @@ export default function Intro() {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
-            className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</motion.p>
+            className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">#reactjs, #nocode, #flutter, #software,<br/> #technology, #programming</motion.p>
             <motion.a 
                  initial={{ opacity: 0, scale: 0.5 }}
                  animate={{ opacity: 1, scale: 1 }}
@@ -63,7 +63,7 @@ export default function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           className="inline-flex px-3 bg-white  border-2 mx-2 items-center   hover:bg-black  text-black rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  hover:text-white focus:ring-4 focus:ring-primary-300 font-medium text-sm py-3 text-center cursor-pointer  borderBlack   "
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/justinbenito/"
           target="_blank"
         >
           <BsLinkedin />
