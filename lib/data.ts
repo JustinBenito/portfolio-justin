@@ -53,7 +53,15 @@ export const experiencesData = [
     description:
       "GPA: 8.83 (First Year) Class Topper",
     icon: React.createElement(LuGraduationCap),
-    date: "2022-2026",
+    date: "2022-2023",
+  },
+  {
+    title: `Electronics and Communication Engineering`,
+    location: "SSN College of Engineering",
+    description:
+      "SSN Coding Club - Software Develpoment Team \n SSN Tech Club - Content Team Member",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023-2026",
   },
   {
     title: "Project Developer and Video Creator",
@@ -70,6 +78,30 @@ export const experiencesData = [
       "Involved in developing and managing email newsletter Website and Creating content for all Social Media Handles",
       icon: React.createElement(CgWorkAlt),
     date: "June 2023 - Present",
+  },
+  {
+    title: "Founder",
+    location: "The Tanglish Press",
+    description:
+      "The Tanglish Press is a content driven Edu Tech Startup, focused on bringing FUN back to Learning",
+      icon: React.createElement(CgWorkAlt),
+    date: "Nov 2023 - Present",
+  },
+  {
+    title: "Intern",
+    location: "IIT Madras Research Park",
+    description:
+      "Bagged a highly competitive internship from IIT Madras Research Park from Prof. Ashok Jhunjhunwala ( Founder of IITMRP ), developed a Hidden Markov Model for Single Syllable Speech Recognition and developed a VAD ( Voice Activity Detection ) script to accurately detect and perform operations on the incoming live stream of voice data ",
+      icon: React.createElement(CgWorkAlt),
+    date: "Feb 2024 - Present",
+  },
+  {
+    title: "Microsoft Learn Student Ambassador",
+    location: "Microsoft",
+    description:
+      " Got Selected to be part of a vibrant community of students and mentors ",
+      icon: React.createElement(CgWorkAlt),
+    date: "March 2024 - Present",
   },
 ] as const;
 
@@ -131,6 +163,13 @@ export const skillsData = [
   "C",
   "C++",
   "Adobe Premier Pro",
-  "Arduino"
+  "Arduino",
+  "Content Creation",
+  "Social Media Management",
+  "Video Production",
+  "Adobe Creative Suite",
+  "Content Writing",
+  "Growind Startups",
+  "Growing Communities"
 
 ] as const;
