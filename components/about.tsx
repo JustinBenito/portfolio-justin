@@ -18,7 +18,7 @@ export default function About() {
       <div className='text-center max-w-prose mx-auto'>
         <SectionHeading>About me</SectionHeading>
         <p className='text-justify'>
-          👋 Hey there, I’m Justin Benito, a tech-savvy sophomore pursuing Electronics and Communication Engineering.
+          👋 Hey there, I’m Justin Benito, a tech-savvy 3rd year student pursuing Electronics and Communication Engineering.
           Passionate about turning ideas into reality.
         </p>
         <p className='text-justify'>
@@ -30,6 +30,9 @@ export default function About() {
         </p>
         <p className='text-justify'>
        👨‍💻 I’m a multilingual developer fluent in Python, C++, Dart, Javascript, React, React Native, Java, and have developed numerous projects using them.
+        </p>
+        <p className='text-justify'>
+        🗣️ I have also given multiple talks from community meetups to huge conferences about topics in React, Flutter and Open Source. 
         </p>
         <p className='text-justify'>
          ✍️ When not in tech mode, I dive into the realm of books and pen short riveting stories.

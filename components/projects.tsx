@@ -18,6 +18,8 @@ export default function Projects() {
             <Project {...project} />
           </React.Fragment>
         ))}
+
+        <a href="https://github.com/justinbenito" className="underline text-purple-400">and 100 more</a>
       </div>
     </section>
   );

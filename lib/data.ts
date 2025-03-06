@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import youtube from "@/public/youtube.png"
+import tamilnadu from "@/public/tamilnadu.png"
 import telehealth from "@/public/tele1.png"
 import boredom from "@/public/boredom.png"
 import event from "@/public/event.png"
@@ -96,16 +97,23 @@ export const experiencesData = [
     date: "Feb 2024 - Present",
   },
   {
-    title: "Microsoft Learn Student Ambassador",
-    location: "Microsoft",
+    title: "Project Intern",
+    location: "Speech Lab SSN",
     description:
-      " Got Selected to be part of a vibrant community of students and mentors ",
+      " Built applications that integrate with speech models for both the assistive tech domain. ",
       icon: React.createElement(CgWorkAlt),
     date: "March 2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "tamilnadu.tech",
+    description:
+      "A one stop solution for all tech events of tamilnadu.",
+    tags: ["NextJS", "JavaScript", "Git", "Figma"],
+    imageUrl: tamilnadu,
+  },
   {
     title: "Youtube Clone",
     description:
