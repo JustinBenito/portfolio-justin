@@ -4,9 +4,8 @@ import matter from 'gray-matter';
 import MarkdownContent from '@/components/markdown-content';
 
 interface BlogPageProps {
-  params: {
-    slug: string;
-  };
+  params: Promise<{ slug: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
 export default async function BlogPage({ params }: BlogPageProps) {
