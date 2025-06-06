@@ -8,6 +8,7 @@ import SectionDivider from '@/components/section-divider'
 import Skills from '@/components/skills'
 
 import Image from 'next/image'
+import BlogsPage from './blogs/page'
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
      <Projects />
      <Skills />
      <Experience />
-     <Contact />
+     {/* <Contact /> */}
+     <BlogsPage />
      <Footer />
     </main>
   )

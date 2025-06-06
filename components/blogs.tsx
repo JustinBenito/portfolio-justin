@@ -30,7 +30,6 @@ export default function BlogsPage() {
 
   return (
     <div className="py-8">
-    
       <h1 className="text-4xl font-bold mb-8 text-center">Blog Posts</h1>
       <div className='gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6'>
         {posts.map((post: BlogPost) => (
@@ -51,7 +50,6 @@ export default function BlogsPage() {
           </Link>
         ))}
       </div>
-
     </div>
   );
 }
